@@ -4,13 +4,12 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         i = 0
         diff_map = dict({})
-        while(i < len(nums)):
+        for i in range(len(nums)):
             diff = target - nums[i]
             if(diff in  diff_map.keys()):
                 return [i, diff_map[diff]]
             else:
                 diff_map[nums[i]] = i
-                i+=1
 
 
 

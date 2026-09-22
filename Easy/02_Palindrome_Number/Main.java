@@ -3,12 +3,12 @@ import java.util.Scanner;
 class Solution{
     public boolean isPalindrome(int x){
         int var = x,rev = 0;
+        if(x < 0){
+            return false;
+        }
         while (var != 0) {
             rev = rev * 10 + var % 10;
             var = var / 10;
-            if(var == 0){
-               rev = rev * 10;
-            }
         }
         return x == rev;
         

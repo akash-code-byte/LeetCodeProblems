@@ -24,9 +24,7 @@ LeetCodeProblems/
 │
 ├── Easy/
 │   ├── 01_Two_Sum/
-│   │   ├── Solution.cpp
 │   │   ├── Solution.py
-│   │   ├── Solution.go
 │   │   └── main.java
 │   │
 │   ├── 02_...
@@ -46,9 +44,7 @@ LeetCodeProblems/
 Currently practicing LeetCode problems using:
 
 * 🐍 Python
-* ⚡ C++
 * ☕ Java
-* 🐹 Go
 
 ---
 
@@ -137,9 +133,7 @@ Example:
 
 ```text
 01_Two_Sum/
-├── Solution.cpp
 ├── Solution.py
-├── Solution.go
 └── main.java
 ```
 
